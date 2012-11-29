@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="libs/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="libs/UIComponent.js"></script>
+<script type="text/javascript" src="ApplicationFacade.js"></script>
+<script type="text/javascript" src="controller/commands/StartupCommand.js"></script>
+<script type="text/javascript" src="model/DonationProxy.js"></script>
+<script type="text/javascript" src="model/EmployeeProxy.js"></script>
+<script type="text/javascript" src="view/mediators/ConfirmationMediator.js"></script>
+<script type="text/javascript" src="view/components/Confirmation.js"></script>
+<script type="text/javascript" src="view/mediators/ParticipationMediator.js"></script>
+<script type="text/javascript" src="view/components/Participation.js"></script>
+<script type="text/javascript" src="view/mediators/PicsMediator.js"></script>
+<script type="text/javascript" src="view/components/Pics.js"></script>
+<script type="text/javascript" src="view/mediators/ScrollerMediator.js"></script>
+<script type="text/javascript" src="view/components/Scroller.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	ApplicationFacade.getInstance("donate").startup();
+});
+</script>
+<title>JavaScript with PureMVC</title>
+
+</head>
+
+<body>
+Not for Testing or Execution - Demonstration Purpose only
+</body>
+</html>
